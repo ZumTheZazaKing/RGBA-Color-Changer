@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RGBA Color Changer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="color">
+
+        <div class="colorChanger">
+
+            <p class="title">RGBA Color Changer</p>
+
+            <label for="red">Red</label><br>
+            <input type="range" name="red" class="redValue" step='1' min="0" max="255" value="222">
+
+            <br><br>
+
+            <label for="green">Green</label><br>
+            <input type="range" name="greenValue" class="greenValue" step='1' min="0" max="255" value="184">
+
+            <br><br>
+
+            <label for="blue">Blue</label><br>
+            <input type="range" name="blueValue" class="blueValue" step='1' min="0" max="255" value="135">
+
+            <br><br>
+
+            <label for="alpha">Alpha</label><br>
+            <input type="range" name="alphaValue" class="alphaValue" step='0.1' min="0" max="1" value="1">
+
+            <br><br>
+
+            <p class="showrgba">rgba(0,0,0,0.4)</p>
+
+        </div>
+
+    </div>
+    
+    <script defer src="script.js"></script>
+</body>
+</html>
